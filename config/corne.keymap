@@ -62,10 +62,10 @@
 
         both_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LS(LT)  &kp LS(GT)  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans      &trans      &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans      &trans      &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans      &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "Both";
