@@ -37,10 +37,10 @@
 
             label = "Lower";
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &kp ESC
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &trans  &trans
-                                        &kp LGUI      &trans        &kp SPACE       &kp RET   &trans    &kp RALT
+&kp TAB           &kp N1         &kp N2  &kp N3    &kp N4  &kp N5              &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
+&kp LEFT_CONTROL  &kp LG(LC(Q))  &trans  &trans    &trans  &kp LC(UP_ARROW)    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &kp ESC
+&kp LSHFT         &trans         &trans  &trans    &trans  &trans              &trans    &trans    &trans    &trans     &trans  &trans
+                                         &kp LGUI  &trans  &kp SPACE           &kp RET   &trans    &kp RALT
             >;
         };
 
@@ -62,10 +62,10 @@
 
         both_layer {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4    &kp F5  &kp F6       &kp F7     &kp F8  &kp F9    &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans    &trans  &trans       &trans     &trans  &trans    &trans   &trans   &trans
-&trans  &trans  &trans  &trans    &trans  &trans       &trans     &trans  &trans    &trans   &trans   &trans
-                        &kp LGUI  &trans  &kp SPACE    &kp ENTER  &trans  &kp RALT
+&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6          &kp F7     &kp F8  &kp F9    &kp F10  &kp F11  &kp F12
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans     &trans  &trans    &trans   &trans   &trans
+&trans      &trans        &trans        &trans        &trans        &trans          &trans     &trans  &trans    &trans   &trans   &trans
+                                        &kp LGUI      &trans        &kp SPACE       &kp ENTER  &trans  &kp RALT
             >;
 
             label = "Both";
